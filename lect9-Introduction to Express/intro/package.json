@@ -1,0 +1,19 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "description": "This project is created to learn about npm",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "khul-ja-shim-shim": "node app.js"
+  },
+  "author": "Prince",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
