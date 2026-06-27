@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
         return res.end();
     }
     else if(req.url === '/products'){
-        res.setHeader('Content-Type', 'text/html');
+        res.setHeader('Content-Type', 'html'); //setHeader is used to tell the browser which type of response(data) we are going to send(example json, html);
         res.write('<html>');
         res.write('<head><title>My First Page</title></head>');
         res.write('<body><h1>Check out these Products</h1></body>');
@@ -19,6 +19,8 @@ const server = http.createServer((req, res) => {
         return res.end();
     }
 
+
+    // if none of the routes matches then this will be executed
     res.setHeader('Content-Type', 'text/html');
     res.write('<html>');
     res.write('<head><title>My First Page</title></head>');
