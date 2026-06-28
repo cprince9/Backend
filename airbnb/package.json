@@ -1,0 +1,16 @@
+{
+  "name": "airbnb",
+  "version": "1.0.0",
+  "description": "This is the backend project for airbnb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon app.js"
+  },
+  "author": "Prince",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
